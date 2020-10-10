@@ -1,0 +1,302 @@
+@charset"UTF-8";
+
+
+body{
+
+background-color: white;
+}
+
+	
+	div#interface {
+		padding: 10px;
+		width: auto;
+		margin: 30px auto 50px auto;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+		transition: background-color 1s;
+	}
+	
+	
+	div#interface:hover {
+		
+		background-color: #51df3f;
+	}
+	
+	div#ingresso {
+		width: auto;
+		margin: 30px auto 50px auto;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+		padding: 10px 10px 10px 10px;
+		transition: background-color 1s;
+		}
+		
+		div#ingresso:hover{		
+			background-color: #51df3f;
+		}
+	
+		
+	div#cadastrar {	
+		position: absolute;
+		width: 50px;
+		margin-top: 250px;
+		margin-left: 140px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+		padding: 10px;		
+	}	
+	
+	div#cadastrar a{
+	text-transform: uppercase;
+	background-color: rgba(218, 238, 39, 0.629);
+	margin: -10px;
+	padding: 10px;
+	transition: background-color 1s;
+	text-decoration: none;		
+	color: rgb(8, 6, 6);
+	}
+	
+	div#cadastrar a:hover{
+	
+	background-color: #51df3f;
+	}
+	
+		
+	
+	div#cadastro {
+		width: auto;
+		margin: 30px auto  50px auto;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+		padding: 10px 10px 10px 10px;
+		transition: background-color 1s;
+		
+	}
+	div#cadastro:hover{
+		background-color: #51df3f;
+	}
+
+	
+	
+	/*Configuração de fotos*/
+	
+	ul#album-foto {
+		position: relative;
+		width: 1200;
+		overflow: hidden;	
+		list-style: none;
+			}
+			
+	ul#album-foto li {
+		float: left;
+		width: 400px;
+		height: 300px;
+		margin: 10px;
+		border: 5px solid white;
+		background-color: #ffffff;		
+		box-shadow: 2px 2px 3px rgba(0,0,0, .3);
+		-webkit-transition: all .3s  ease-in;
+		}
+		
+		ul#album-foto li span{
+			opacity: 0;
+			color: #ffffff;
+			text-shadow: 1px 1px 1px #000000;
+			background-color: rgba(0,0,0,.3); 
+			font-size: 15px;
+			line-height: 550px;
+			padding: 5px;
+		}
+		
+		ul#album-foto li:hover{
+			-webkit-transform: scale(1.2);
+		}
+		
+		ul#album-foto li:hover span{
+			opacity: 1;
+		}
+			
+	/*Configuração do menu*/
+	
+	nav#menu {	
+	display: block;
+}
+			
+	nav#menu li:hover {
+	background-color: #51df3f;
+}
+
+nav#menu li {
+	
+	text-transform: uppercase;
+	display: inline-block;
+	background-color:rgba(247, 241, 241, 0.559) ;
+	margin: 10px;
+	padding: 10px;
+	transition: background-color 1s;
+		
+}
+
+nav#menu a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+	
+	nav#menu ul {	
+	position: absolute;
+	top: -10px;
+	left: 300px;
+	list-style: none;
+	}
+/*Configuração de parágrafo*/
+	
+	p{
+	font-size: 20pt;
+	color: #681d4f;
+	font-family: Arial;
+	text-align: center;
+	}
+	
+	footer#rodape {
+		font-size: 16px;		
+		text-align: center;
+		border-top: 3px solid #971bde;
+		background-color: #51df3f;
+		height: 60px;
+		margin: 0px;
+		padding: 10px;	
+		clear: both;	
+		
+	}
+
+
+	
+    h1{
+        font-family: Arial;
+        font-size: 60pt;
+        color: black;
+       text-shadow: 4px 4px 4px green;
+       text-align: center;
+    }
+	
+/*Configuração de Cabeçalho*/
+
+
+header#cabecalho img#icone {
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+	transition: background-color 1s;
+	padding: 5px;
+	
+	}
+	
+	
+
+
+	
+	
+	/*Configuração da sessão*/
+	
+	section#fotos {
+		width: 500px;
+		display: block;
+		float: left;
+		margin-left: 90px;		
+	}
+	
+	aside#esquerdo{
+		margin-right: 95px;	
+		width: 500px;
+		display: block;
+		float: right;
+		
+	}
+	/*Lista de Ingressos*/
+	
+	ul#lista {
+		position: relative;
+		width: 1200;
+		overflow: hidden;	
+		list-style: none;
+	}
+	
+	ul#lista li {
+		float: left;
+		width: 400px;
+		height: 300px;
+		margin: 10px;
+		border: 5px solid white;
+		background-color: #635f5f;		
+		box-shadow: 2px 2px 3px rgba(0,0,0, .3);
+		-webkit-transition: all .3s  ease-in;
+		}
+		
+		section#ladoA {
+		width: 500px;
+		display: block;
+		float: left;
+		/*border-right: 3px solid #971bde;*/
+		margin-left: 90px;		
+	}
+	
+	aside#ladoB{
+		margin-right: 95px;	
+		width: 500px;
+		display: block;
+		float: right;
+		
+	}
+	
+
+	table{
+		background-color: brown;
+		table-layout: fixed;
+		color: black;
+		font-size: 14pt;
+		border-collapse: collapse;
+	}	
+
+	table th, td{
+		border: 1px solid #000;
+		vertical-align: middle;
+	}
+
+	th{
+		background-color: green;
+		height: 30px;
+		font-size: 14px;
+	}
+	td{
+		height: 20px;
+	}
+
+	tr:nth-child(even){
+		background-color: grey;
+
+
+
+	}
+	div#voltar {
+		background-color: grey;
+		position: relative;		
+		width: 60px;
+		margin: 20px;
+		padding: 10px;
+		margin-top: 10px;
+		margin-left: 600px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+		padding: 10px;		
+	}	
+	
+	div#voltar a{
+	text-transform: uppercase;
+	transition: background-color 1s;
+	text-decoration: none;		
+	color: black;
+	}
+	
+	div#voltar:hover{
+	
+	background-color: #51df3f;
+	}
+		
